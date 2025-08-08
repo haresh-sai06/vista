@@ -14,7 +14,126 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      inventory: {
+        Row: {
+          created_at: string
+          id: string
+          item_id: string
+          item_name: string
+          price_per_unit: number | null
+          reorder_level: number | null
+          stock_count: number
+          unit: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          item_id: string
+          item_name: string
+          price_per_unit?: number | null
+          reorder_level?: number | null
+          stock_count?: number
+          unit?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          item_id?: string
+          item_name?: string
+          price_per_unit?: number | null
+          reorder_level?: number | null
+          stock_count?: number
+          unit?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          address: string | null
+          company_name: string | null
+          created_at: string
+          id: string
+          industry: string | null
+          phone: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          address?: string | null
+          company_name?: string | null
+          created_at?: string
+          id?: string
+          industry?: string | null
+          phone?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          address?: string | null
+          company_name?: string | null
+          created_at?: string
+          id?: string
+          industry?: string | null
+          phone?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      vendors: {
+        Row: {
+          address: string | null
+          category: string
+          contact_email: string | null
+          contact_phone: string | null
+          created_at: string
+          id: string
+          is_verified: boolean | null
+          last_order_date: string | null
+          price_range: string | null
+          rating: number | null
+          updated_at: string
+          user_id: string
+          vendor_name: string
+        }
+        Insert: {
+          address?: string | null
+          category: string
+          contact_email?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          id?: string
+          is_verified?: boolean | null
+          last_order_date?: string | null
+          price_range?: string | null
+          rating?: number | null
+          updated_at?: string
+          user_id: string
+          vendor_name: string
+        }
+        Update: {
+          address?: string | null
+          category?: string
+          contact_email?: string | null
+          contact_phone?: string | null
+          created_at?: string
+          id?: string
+          is_verified?: boolean | null
+          last_order_date?: string | null
+          price_range?: string | null
+          rating?: number | null
+          updated_at?: string
+          user_id?: string
+          vendor_name?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
