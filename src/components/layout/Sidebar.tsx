@@ -52,7 +52,7 @@ export const Sidebar = ({ activeTab, onTabChange }: SidebarProps) => {
         <div className="flex flex-col h-full">
           {/* Header */}
           <div className="p-6 border-b">
-            <h2 className="text-xl font-bold text-primary">Smart MSME Manager</h2>
+            <h2 className="text-xl font-bold text-primary"> VISTA</h2>
           </div>
 
           {/* Navigation */}

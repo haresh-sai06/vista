@@ -30,7 +30,7 @@ const Index = () => {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <Package className="h-8 w-8 text-primary mr-3" />
-              <h1 className="text-2xl font-bold text-primary">Smart MSME Manager</h1>
+              <h1 className="text-2xl font-bold text-primary">VISTA</h1>
             </div>
             <div className="space-x-4">
               <Button variant="ghost" onClick={() => navigate("/auth")}>
@@ -127,7 +127,7 @@ const Index = () => {
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Business?</h3>
-          <p className="text-xl mb-8 opacity-90">Join thousands of MSMEs already using Smart MSME Manager</p>
+          <p className="text-xl mb-8 opacity-90">Join thousands of MSMEs already using VISTA</p>
           <Button size="lg" variant="secondary" onClick={() => navigate("/auth")}>
             Get Started Today
           </Button>
@@ -139,9 +139,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center mb-4">
             <Package className="h-6 w-6 text-primary mr-2" />
-            <span className="text-lg font-semibold">Smart MSME Manager</span>
+            <span className="text-lg font-semibold">VISTA</span>
           </div>
-          <p className="text-muted-foreground">© 2024 Smart MSME Manager. Built for the future of small business.</p>
+          <p className="text-muted-foreground">© 2025 VISTA. Built for the future of small business.</p>
         </div>
       </footer>
     </div>

@@ -211,7 +211,7 @@ export const SettingsTab = () => {
             <div className="pt-4 border-t">
               <h4 className="font-medium mb-2">System Information</h4>
               <div className="text-sm text-muted-foreground space-y-1">
-                <p>Platform: Smart MSME Manager</p>
+                <p>Platform: VISTA</p>
                 <p>Version: 1.0.0 (MVP)</p>
                 <p>Last Login: {new Date().toLocaleString()}</p>
               </div>
@@ -223,9 +223,9 @@ export const SettingsTab = () => {
       {/* App Information */}
       <Card>
         <CardHeader>
-          <CardTitle>About Smart MSME Manager</CardTitle>
+          <CardTitle>About VISTA</CardTitle>
           <CardDescription>
-            AI-powered inventory and vendor management platform for MSMEs
+            Vendor Intelligence & Smart Tracking for Automation
           </CardDescription>
         </CardHeader>
         <CardContent>
